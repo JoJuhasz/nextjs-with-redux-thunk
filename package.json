@@ -4,9 +4,11 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -15,5 +17,9 @@
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-next": "^11.0.1"
+  }
 }
